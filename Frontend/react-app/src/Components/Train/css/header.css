@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.254;
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	padding: 20px 0;
+	min-height: 400px;
+	height: fit-content;
+	background-size: cover;
+	/*background: url("../img/bg-index.jpg") center;*/
+	position: relative;
+	object-fit:contain;
+}
+.header .black{
+	position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.5;
+    height: 400px;
+    width: 100%;
+}
+.header .navbar{
+	display: flex;
+	max-width: 1500px;
+	margin: 0 auto;
+	align-items: center;
+	color: #fff;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.header .left{
+	z-index: 1;
+}
+
+.header .logo img{
+	height: 128px;
+	width: 144px;
+
+}
+.header .right{
+	z-index: 1;
+}
+.header .right .menu{
+	display: flex;
+	margin-bottom: 15px;
+}
+.right .tab .Link{
+	color: #CFCFCF;
+	text-underline: none;
+}
+.right .tab .Link:hover{
+	text-decoration-color: #79CDCD;
+	transition-duration: 0.8s;
+}
+.header .content{
+	margin: 30px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	color: #fff;
+}
+.header .content h1{
+	z-index: 1;
+}
+.header .content p{
+	z-index: 1;
+}
+/*.header .right .search{*/
+/*	padding: 7px 5px;*/
+/*	width: 80%;*/
+/*	background: #fff;*/
+/*	position: relative;*/
+/*	font-size: 18px;*/
+/*}*/
+/*.header .right .search .icon{*/
+/*	cursor: pointer;*/
+/*	color: rgb(107, 107, 106);*/
+/*	position: absolute;*/
+/*	right: 4px;*/
+/*	bottom: 8px;*/
+/*}*/
+/*.header .right .search input{*/
+/*	padding: 5px 15px;*/
+/*	color: rgb(107, 107, 106);*/
+/*	border: 1px solid rgb(107, 107, 106);*/
+/*	border-radius: 10px;*/
+/*	height: 25px;*/
+/*	width: 90%;*/
+/*}*/
+/*.header .right .search p{*/
+/*	cursor: pointer;*/
+/*	color: black;*/
+/*	position: absolute;*/
+/*	right: 4px;*/
+/*	bottom: 8px;*/
+/*}*/

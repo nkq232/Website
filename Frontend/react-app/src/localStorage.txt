@@ -1,0 +1,7 @@
+username
+password
+loginStatus: 1 loginPage, 2 login success, null not login
+token
+postsLength
+currentPage
+biggestID

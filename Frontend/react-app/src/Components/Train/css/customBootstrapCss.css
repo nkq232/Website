@@ -1,0 +1,29 @@
+/*.btn-primary, */
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: white !important;
+    color: #183153 !important;
+    transition-duration: 0.6s;
+}
+.btn-primary {
+    background-color: #183153 !important;
+}
+.btn-outline-primary {
+    border-color: #183153 !important;
+    background-color: #183153 !important;
+    color: white !important;
+}
+.btn-outline-primary:hover {
+    background-color: white !important;
+    color: #183153 !important;
+    transition-duration: 0.6s;
+}
+.btn-outline-primary:active, .btn-outline-primary:visited {
+    background-color: white !important;
+    border: 2px solid #183153 !important;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: white !important;
+    color: #183153 !important;
+    transition-duration: 0.6s;
+}

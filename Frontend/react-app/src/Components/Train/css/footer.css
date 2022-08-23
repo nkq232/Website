@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    min-height: 150px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #183153;
+}
+.footer .list-icon {
+    display: flex;
+    flex-direction: row;
+}
+.list-icon .icon{
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.footer .text{
+    font-size: 13px;
+    margin: 20px 0px;
+    font-style: oblique;
+}

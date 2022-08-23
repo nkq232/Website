@@ -1,0 +1,49 @@
+.main-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.ForCss{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    margin: 0 auto;
+}
+.ForCss .list_child{
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(67, 65, 65);
+    cursor: pointer;
+}
+.list_child .title{
+    font-weight: 500;
+    font-size: 31px;
+    text-underline: none;
+}
+.list_child .more{
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.button{
+    margin-top: 20px;
+    position: relative;
+    height: 50px;
+}
+.button button{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    height: 40px;
+    padding: 5px 10px;
+    background: rgb(63, 143, 213);
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid rgb(28, 115, 192) ;
+}
